@@ -37,6 +37,7 @@ int main()
 	Sobel(srcImage, scharrImage, ddepth, 0, 1, 3, scale, delta, BORDER_DEFAULT);
 	imshow("scharrImage", scharrImage);
 	
+	cout << "thank you:" << endl;
 	waitKey(0);
 	return 0;
 }
